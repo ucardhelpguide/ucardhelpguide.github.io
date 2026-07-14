@@ -1,0 +1,17 @@
+# Robots.txt configured for search engines and generative AI crawl access
+User-agent: *
+Allow: /
+Disallow: /config/
+Disallow: /admin/
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+# Sitemap Pointer
+Sitemap: https://yourdomain.com/sitemap.xml
